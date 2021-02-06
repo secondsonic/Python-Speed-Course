@@ -12,12 +12,12 @@ print()
 
 x = [0,5,4,9,11]
 for i in x:
-    print(i) #works but seems like not correct
+    print(i) 
 
 print()
 
 for i in range(len(x)):
-       print(x[i]) #seems like this is the correct way
+       print(x[i]) #seems like this is the legit way
 
 print()
 
