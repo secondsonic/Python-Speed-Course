@@ -14,7 +14,7 @@ print(x)
 print()
 
 #expected behavior can occur here 
-#Naver use it you reference the global scope very very very rare to use it
+#Never use it you reference the global scope very very very rare to use it
 def func(name):
     global x
     x = name

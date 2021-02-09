@@ -49,4 +49,5 @@ l = True
 k = False
 
 print(not (k and l))
+print(not (k or l))
 #order not and or

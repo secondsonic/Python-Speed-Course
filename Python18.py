@@ -7,7 +7,6 @@ except Exception as e:
     print(e)
 finally:
     print('Finally')
-print()
 #OR
 try:
     x = 7 / 0

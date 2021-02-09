@@ -8,11 +8,9 @@ s = y - x
 m = x * y
 d = int(y / x)
 d1 = y / x
-d0 = y // x
-#exponent
-e = x ** y
-#module remainder
-m = y % x
+d0 = y // x #int div
+e = x ** y  #exponent
+m = y % x   #module remainder
 
 print(a,s,m,d,d1,d0,e,m)
 

@@ -13,7 +13,7 @@ func(3)()
 x = func(3)
 x()
 
-print
+print()
 
 def func(*args, **kwargs):
     pass
@@ -24,7 +24,7 @@ x = [1, 5, 9, 8, 10 ,-5 ,0]
 print(x)
 print(*x)
 
-print
+print()
 
 def func(x, y):
     print(x, y)
@@ -38,7 +38,7 @@ for pair in pairs: #works but not the pythonic way!
 
 for pair in pairs:
     func(*pair)
-print
+print()
 
 #now for dictonaries
 #if we have keys
@@ -54,7 +54,7 @@ func(**{'x':3, 'y':9 })
 #works even when not in right order
 func(**{'y':9, 'x':3 })
 
-print
+print()
 
 def func(*args, **kwargs):
     print(*args, **kwargs)

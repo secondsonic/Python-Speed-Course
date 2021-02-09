@@ -1,5 +1,5 @@
 #SETS
-#sets are much faster the s = [] as the input gets larger
+#sets are much faster than s = [] as the input gets larger
 x = set()
 
 s = {4,5,6,9,4,4,5,5,5,5,9} #is a dict

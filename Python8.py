@@ -22,4 +22,4 @@ for i in range(len(x)):
 print()
 
 for i, element in enumerate(x):
-    print(i,element)
+    print(i,'->',element)

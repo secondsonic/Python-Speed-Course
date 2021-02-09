@@ -8,7 +8,7 @@ def func( x , y):
         print('RUN!')
     func()    
 
-func('You', 'Piece of Shit')
+func('You', 'Sus one!')
 
 print()
 
